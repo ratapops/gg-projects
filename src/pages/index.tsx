@@ -72,10 +72,10 @@ export default function Home() {
         selectableRows
         onSelectedRowsChange={handleChange}
       />
-
-      <a href="/api/auth/login">Login</a>
-
       
+      <Link href="/api/auth/login">
+        <a>Login</a>
+      </Link>
     </div>
   );
 }
